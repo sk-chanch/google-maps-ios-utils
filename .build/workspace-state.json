@@ -1,0 +1,25 @@
+{
+  "object" : {
+    "artifacts" : [
+      {
+        "packageRef" : {
+          "identity" : "google-maps-ios-utils",
+          "kind" : "root",
+          "location" : "/Volumes/THUNDER-WORK/iOS/GitHub/google-maps-ios-utils",
+          "name" : "google-maps-ios-utils"
+        },
+        "path" : "/Volumes/THUNDER-WORK/iOS/GitHub/google-maps-ios-utils/.build/artifacts/google-maps-ios-utils/GoogleMapsUtils.xcframework",
+        "source" : {
+          "checksum" : "2691cbbeee51a250af8eda911c2e5a826473998fa4e61bc5823c181b1ac27846",
+          "type" : "remote",
+          "url" : "https://github.com/googlemaps/google-maps-ios-utils/releases/download/v4.1.0/GoogleMapsUtils.xcframework.zip"
+        },
+        "targetName" : "GoogleMapsUtils"
+      }
+    ],
+    "dependencies" : [
+
+    ]
+  },
+  "version" : 5
+}

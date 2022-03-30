@@ -299,8 +299,11 @@ static const double kGMUAnimationDuration = 0.5;  // seconds.
         marker = [self markerWithPosition:item.position
                                      from:fromPosition
                                  userData:item
-                              clusterIcon:nil
+                              clusterIcon:item.imageMarker
                                  animated:shouldAnimate];
+          
+          marker.iconView = item.iconView;
+          
         if ([item respondsToSelector:@selector(title)]) {
             marker.title = item.title;
         }
